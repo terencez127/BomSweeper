@@ -7,26 +7,23 @@ Wrote this because I had some legacy source codes of several Android projects in
 
 bs.py [-h] [--type TYPE] path
 
-positional arguments:
+
+&ensp;&ensp;&ensp;&ensp;**path**:         path of the target folder
 
 
-  path:         path of the target folder
-
-
-optional arguments:
-
-
-  -h, --help:   show this help message and exit
+&ensp;&ensp;&ensp;&ensp;**-h, --help**:   show this help message and exit
 
   
---type TYPE:  file type
+&ensp;&ensp;&ensp;&ensp;**--type TYPE**:  file type
 
 ###Examples
 
 Convert all files under a folder:
 
-```python bs.py /path/to/the/target/folder```
+&ensp;&ensp;&ensp;&ensp;```python bs.py /path/to/the/target/folder```
 
 Convert all java files under a folder:
 
-```python bs.py /path/to/the/target/folder --type java```
+&ensp;&ensp;&ensp;&ensp;```python bs.py /path/to/the/target/folder --type java```
+<br><br>
+**Note**: Thanks to this answer on stackoverflow: http://stackoverflow.com/a/8898439
