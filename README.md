@@ -1,5 +1,5 @@
 # BomSweeper
-Remove BOM(Byte Order Marker) from files. 
+Remove BOM(Byte Order Marker) from UTF-8 files. 
 
 Wrote this because I had some legacy source codes of several Android projects in UTF-8 with BOM, but couldn't find any software to do batching BOM removing operations on MAC OS.
 
