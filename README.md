@@ -8,11 +8,18 @@ Wrote this because I had some legacy source codes of several Android projects in
 bs.py [-h] [--type TYPE] path
 
 positional arguments:
-  path         path of the target folder
+
+
+  path:         path of the target folder
+
 
 optional arguments:
-  -h, --help   show this help message and exit
-  --type TYPE  file type
+
+
+  -h, --help:   show this help message and exit
+
+  
+--type TYPE:  file type
 
 ###Examples
 
